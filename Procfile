@@ -1,0 +1,1 @@
+web: gunicorn 10_api_prediction:app --bind 0.0.0.0:$PORT
